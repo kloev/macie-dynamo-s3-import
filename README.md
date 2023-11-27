@@ -1,8 +1,12 @@
-# Welcome to your CDK TypeScript project
+# Export DynamoDB Tables to S3 for Macie analysis
+This Repository is a CDK infrastructure made like the Cloudformation template displayed in the [AWS Guide Macie for Dynamo Tables](https://aws.amazon.com/de/blogs/security/detecting-sensitive-data-in-dynamodb-with-macie/).
 
-This is a blank project for CDK development with TypeScript.
+## How To
+- in `bin/macie-dynamo-s3-import.ts` set ACCOUNT_ID to your Account Id
+- install your dependencies via `npm i`
+- deploy your code `cdk deploy`
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+For additional info visit the AWS Guide.
 
 ## Useful commands
 
