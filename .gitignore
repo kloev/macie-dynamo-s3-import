@@ -6,3 +6,5 @@ node_modules
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+bin/macie-dynamo-s3-import.ts

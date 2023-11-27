@@ -177,7 +177,7 @@ export class MacieDynamoS3ImportStack extends Stack {
       description: "Exports data from DynamoDB to S3 bucket",
       runtime: lambda.Runtime.PYTHON_3_7,
       handler: 'index.handler',
-      code: lambda.Code.fromAsset(path.join(__dirname, '/functions/index')),
+      code: lambda.Code.fromAsset(path.join(__dirname, '../resources/exportDynamoDBToS3')),
       role: exportLambdaRole,
       timeout: Duration.minutes(120),
       environment: {
